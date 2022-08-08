@@ -1,0 +1,18 @@
+<div id="pollCard">
+  <div id="pollTop">
+    <span id="pollCross" onclick="closeContainer()">&#10005;</span>
+    <h1 id="pollHeader"><b>Temporary Poll</b></h1>
+  </div>
+  <p id="pollText">This poll is to see if this website's design should be changed. Please check <a
+      href="https://personal-blog.brendawg.repl.co/" target=”_blank” rel="noopener noreferrer" id="pollLink"><i>this
+        website</i></a> and vote yes or no, for changing to that design.</p>
+
+  <div id="yesNoContainer">
+    <form id="yesContainer" method="post">
+      <button class="choiceButton" onclick="closeContainer()" name="choice" value="Yes">YES</button>
+    </form>
+    <form id="noContainer" method="post">
+      <button class="choiceButton" onclick="closeContainer()" name="choice" value="No">NO</button>
+    </form>
+  </div>
+ </div>
